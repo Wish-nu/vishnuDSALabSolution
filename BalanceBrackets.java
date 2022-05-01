@@ -3,7 +3,7 @@ import java.util.Stack;
 public class balanceBrackets {
 
     public static void main(String[] args) {
-        String inputString = "((){]([]))";
+        String inputString = "([[{}]])";          //String is balanced
         Stack<Character> stack = new Stack<>();
         boolean unbalanced = false;
 
